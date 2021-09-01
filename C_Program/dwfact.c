@@ -2,15 +2,13 @@
 
 #include<stdio.h>
 void main(){
-	int n1,n2,n3,i,num;
+	int num,i=1,fact=1;
+	printf("\n enter nos: ");
+	scanf("%d",&num);
 	do
 	{
-	printf("enter the no.: ");
-	scanf("%d%d",&n1,&n2);
-	n3=n1+n2;
-	num=i++;
-	n2=n1;
-	n3=n2;	
-	}while(num<=i);
-	printf("\n n3 = %d",n3);
+	fact=fact*i;
+	i++;	
+	}while(i<=num);
+	printf("\n factorial = %d",fact);
 }

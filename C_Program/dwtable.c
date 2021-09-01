@@ -11,8 +11,8 @@ int main(){
 	i=1;
 	while(i<=10){
 		res=num*i;
-		i++;
 		printf("\n %d * %d = %d",num,i,res);
+		i++;
 	}
 	printf("\n do you want to continue ? , press 'y' for yes otherwise press 'n': ");
 	fflush(stdin);

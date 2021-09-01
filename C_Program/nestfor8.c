@@ -2,11 +2,11 @@
 void main()
 {
 	int row,col;
-	for(row=3;row>=1;row--)
+	for(row=1;row<=3;row++)
 	{
-		for(col=1;col<=row;col++)
+		for(col=3;col>=row;col--)
 		{
-			printf("\t %d",col);
+			printf("\t %d",row);
 		}
 		printf("\n");
 	}

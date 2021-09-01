@@ -14,5 +14,5 @@ void main() {
 	else {
 		bonus=100;
 	}
-	print("\n bonus=%d",bonus);
+	printf("\n bonus=%d",bonus);
 }

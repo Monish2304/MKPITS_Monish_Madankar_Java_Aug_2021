@@ -25,5 +25,5 @@ void main() {
 	else {
 		printf("it is not valid operator");
 	}
-	printf("\n result = %f",result);
+	printf("\n result = %.2f",result);
 }
