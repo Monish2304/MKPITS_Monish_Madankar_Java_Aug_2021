@@ -1,0 +1,15 @@
+// wap to print even no. from 1 to 10 using while loop.
+
+#include<stdio.h>
+int main()
+{
+	int num=1;
+	while(num<=10)
+	{
+		if(num%2==0)
+		{
+			printf("\n %d",num);
+		}
+		num=num+1;
+	}
+}
