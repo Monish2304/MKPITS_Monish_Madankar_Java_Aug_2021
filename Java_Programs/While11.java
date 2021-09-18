@@ -14,7 +14,7 @@ class While11
 		while(i<=num)
 		{
 			c = a + b;
-			System.out.print(+c);
+			System.out.print(+c+  "  " );
 			a=b;
 			b=c;
 			i++;
