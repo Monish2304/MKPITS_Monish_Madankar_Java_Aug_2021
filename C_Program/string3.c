@@ -1,0 +1,21 @@
+//accepting a string from user without & operator.
+
+#include<stdio.h>
+int main()
+{
+		char ch[10];
+	int cnt=0;
+	int i=0;
+	printf("enter the string: ");
+	scanf("%s",ch);
+	while(i<10)
+	{
+		if(ch[i]=='a' || ch[i]=='e' || ch[i]=='i' || ch[i]=='o' || ch[i]=='u')
+		{
+			cnt=cnt+1;
+		}
+		i++;
+	}
+	printf("\n no of vowels in a string = %d",cnt);
+
+}
