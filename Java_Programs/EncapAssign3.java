@@ -62,11 +62,11 @@ class Order {
 		this.quantity=quantity;
 	}
 
-	public void calculateTotalBill(float prodPrice,int quantity) {
+	public void calculateTotalBill() {
 
-		float totalBillAmount = prodPrice * quantity;
+		totalBillAmount = prodPrice * quantity;
 
-		//return totalBillAmount;
+		//System.out.println("Total Bill Amount: " + totalBillAmount);
 	}
 
 	public void display() {
@@ -81,7 +81,7 @@ class Order {
 
 		System.out.println("Quantity: " + quantity);
 
-		//System.out.println("Total Bill Amount: " + totalBillAmount);
+		System.out.println("Total Bill Amount: " + totalBillAmount);
 	}
 }
 
@@ -101,7 +101,7 @@ class EncapAssign3 {
 
 		o1.setQuantity(5);
 
-		o1.claculateTotalBill(("Total Bill Amount: " + totalBillAmount));
+		o1.calculateTotalBill();
 
 		o1.display();
 	}
