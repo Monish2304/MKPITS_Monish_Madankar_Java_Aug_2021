@@ -1,5 +1,5 @@
 import java.util.*;
-class StringEx1{
+class StringExample2{
 public static void main(String args[])
 {
 Scanner sc=new Scanner(System.in);
@@ -8,7 +8,7 @@ String fn=sc.next();
 StringBuffer sb=new StringBuffer(fn);
 System.out.println("enter your lname");
 String ln=sc.next();
-    sb.insert(5,ln);//now original string is changed
+    sb.delete(1,5);//now original string is changed
     System.out.println(sb);//prints HJavaello
 
 
