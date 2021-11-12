@@ -6,7 +6,7 @@ class FrameEx2 extends Frame {
 
 		Button b1=new Button("ok");
 
-		b1.setBounds(150,325,100,30);
+		b1.setBounds(150,300,100,30);
 
 		setTitle("Java Page");
 
