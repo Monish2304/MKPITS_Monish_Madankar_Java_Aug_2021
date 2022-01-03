@@ -15,10 +15,10 @@ int main()
 	}
 	if(count==2)
 	{
-		printf("\n no. is prime no.");
+		printf("\n It is prime no.");
 	}
 	else
 	{
-		printf("\n the no. is not prime no.");
+		printf("\n It is not prime no.");
 	}
 }

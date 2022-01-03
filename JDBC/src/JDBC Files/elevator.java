@@ -10,10 +10,18 @@ public class elevator extends JFrame{
         add(b1);
 
         b2=new JToggleButton("2");
-        b2.setBounds(480,20,80,80);
+        b2.setBounds(460,20,80,80);
         add(b2);
 
-        setSize(600,700);
+        b3=new JToggleButton("3");
+        b3.setBounds(360,120,80,80);
+        add(b3);
+
+        b4=new JToggleButton("4");
+		b4.setBounds(460,120,80,80);
+        add(b4);
+
+        setSize(580,700);
         setLayout(null);
         setVisible(true);
     }
