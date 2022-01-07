@@ -63,7 +63,8 @@ class ChatClientFrame extends JFrame {
                     } catch (IOException ex) {
                         ex.printStackTrace();
                     }
-                    System.out.println("Server : "+str);
+                    String str1 = null;
+                    System.out.println("Server : "+str1);
 
                 /*if(str.equals("bye")){
                     System.exit(0);
