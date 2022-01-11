@@ -1,0 +1,11 @@
+
+div {
+	height: 50px;
+	width: 250px;
+	background-color: silver;
+	color: purple;
+	float: left;
+	margin: 50px;
+	border: blue;
+	
+	}
