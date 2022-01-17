@@ -1,0 +1,59 @@
+ul{
+    margin: 0px;
+    padding: 0px;
+    height: 40px;
+    line-height: 30px;
+    background-color: black;
+    font-family: monospace;
+    font-size: 15px;
+    list-style: none;
+    
+}
+
+li{
+    float: right;
+    padding: 0px 25px;
+    border-left: 2px tomato solid;
+    
+}
+
+
+a{
+    color: white;
+    display: block;
+    text-decoration: none;
+}
+
+
+table{
+	margin: 0px;
+	padding: 25px;
+	background-color: pink;
+	color: white;
+	font-size: 0px;
+	font-family: courier;
+	
+}
+
+a:hover{
+    background-color: orange;
+}
+
+
+.home a{
+    background-color: yellow;
+}
+
+
+h2{
+
+color:grey;
+font-size: 40px;
+font-family: courier;
+text-align-last: center;
+vertical-align: text-bottom;
+}
+
+body{
+	background-color: aqua;
+}

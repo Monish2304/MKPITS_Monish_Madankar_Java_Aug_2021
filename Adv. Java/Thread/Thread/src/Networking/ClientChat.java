@@ -8,7 +8,7 @@ import java.net.Socket;
 
 public class ClientChat {
     public static void main(String[] args) throws IOException {
-        Socket s=new Socket("localhost",6000);
+        Socket s=new Socket("localhost",5010);
         System.out.println("Client is sending request and waiting for server to connect...");
 
         for(;;){
@@ -19,7 +19,7 @@ public class ClientChat {
 
             DataInputStream dis1=new DataInputStream(s.getInputStream());
             String str1=dis1.readLine();
-            System.out.println("Server : "+str);
+            System.out.println("Server : "+str1);
 
                 /*if(str.equals("bye")){
                     System.exit(0);

@@ -6,10 +6,10 @@ import java.net.Socket;
 
 public class ServerChat {
     public static void main(String[] args) throws IOException {
-        ServerSocket ss=new ServerSocket(6000);
-        System.out.println("Sending Request to Client over port 6000 ...");
+        ServerSocket ss=new ServerSocket(5010);
+        System.out.println("Sending Request to Client ...");
         Socket s=ss.accept();
-        System.out.println("Server and Client are conneted over port 6000.");
+        System.out.println("Server and Client are conneted .");
 
        for(;;){
            DataInputStream dis=new DataInputStream(s.getInputStream());
