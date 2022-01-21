@@ -3,7 +3,7 @@ import com.sun.org.apache.xml.internal.utils.ListingErrorHandler;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Strean_Ex3 {
+public class Stream_Ex3 {
     public static void main(String[] args) {
         ArrayList<Integer> ob= new ArrayList<Integer>();
         ob.add(30);
