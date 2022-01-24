@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(230, 231, 238);
+    margin-top: 25px;  
+    
+}
+
+form{
+
+}
+
+h4{
+    margin-left: 8.7in;
+    margin-top: 100px;
+    font-size: 30px;
+    color: whitesmoke;
+
+    /*special effect*/
+    background: rgb(143, 177, 240);
+    border-radius: 5px;
+    padding: 6px;
+    width: 100px;
+    height: 35px;
+}
+
+div{
+    margin-top: 0.5in;
+    margin-left: 6in;
+    
+}
+
+button{
+    margin-left: 1.8in;
+    background-origin: padding-box;
+    background-color: rgb(143, 177, 240);
+    text-transform:capitalize ;
+    border: 3.5px solid rgb(143, 177, 240);
+    color: whitesmoke;
+    font-size: 15px;
+    
+    /*special effects*/
+    border-radius: 5px;
+    padding: 6px;
+    width: 75px;
+    height: 35px;
+}

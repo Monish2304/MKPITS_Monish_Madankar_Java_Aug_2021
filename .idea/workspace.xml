@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c914525e-27d0-4cac-816a-97509cda404f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Adv. Java/Encoder_Decoder.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Adv. Java/Thread/src/Thread.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MKPITS_Monish_Madankar_Java_Aug_2021.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MKPITS_Monish_Madankar_Java_Aug_2021.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Encoder_Decoder/Strean_Ex3.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,30 +43,30 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Application.Strean_Ex3">
-    <configuration name="Collection_Ex1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Collection_Ex1" />
+  <component name="RunManager" selected="Application.Static_Method_Ref4">
+    <configuration name="Static_Method_Ref1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Static_Method_Ref1" />
       <module name="Encoder_Decoder" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Enc_Dec_Using_Class" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Enc_Dec_Using_Class" />
+    <configuration name="Static_Method_Ref2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Static_Method_Ref2" />
       <module name="Encoder_Decoder" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Stream_Ex1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Stream_Ex1" />
+    <configuration name="Static_Method_Ref3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Static_Method_Ref3" />
       <module name="Encoder_Decoder" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Stream_Ex2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Stream_Ex2" />
+    <configuration name="Static_Method_Ref4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Static_Method_Ref4" />
       <module name="Encoder_Decoder" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -86,11 +81,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Static_Method_Ref4" />
+        <item itemvalue="Application.Static_Method_Ref3" />
+        <item itemvalue="Application.Static_Method_Ref2" />
+        <item itemvalue="Application.Static_Method_Ref1" />
         <item itemvalue="Application.Strean_Ex3" />
-        <item itemvalue="Application.Stream_Ex2" />
-        <item itemvalue="Application.Stream_Ex1" />
-        <item itemvalue="Application.Collection_Ex1" />
-        <item itemvalue="Application.Enc_Dec_Using_Class" />
       </list>
     </recent_temporary>
   </component>
@@ -115,5 +110,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
