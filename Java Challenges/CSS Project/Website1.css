@@ -28,6 +28,10 @@ div{
     
 }
 
+input{
+    block-size: 35px;
+}
+
 button{
     margin-left: 1.8in;
     background-origin: padding-box;
@@ -42,4 +46,8 @@ button{
     padding: 6px;
     width: 75px;
     height: 35px;
+}
+
+.hover{
+    box-shadow: 10px;
 }
