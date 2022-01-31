@@ -12,7 +12,7 @@ form{
     margin-left: 5.3in;
     width: 5.5in;
     height: 3in;
-    border-radius: 6px;
+    border-radius: 8px;
     
     background-color: white;
   }
@@ -30,24 +30,26 @@ h4{
 
     /*special effect*/
     background: #0088cc;
-    border-radius: 15px;
-    border-style:double;
-    border-color:;
+    border-radius: 8px;
+    /*border-style:double;*/
+    /*border-color:;*/
     padding: 6px;
     width: 100px;
     height: 35px;
 }
 
 div.user{
-    margin-top: 0.8in;
-    margin-left: 0.8in;
-    
-    
+    margin-top: 1in;
+    margin-left: 0.6in;   
+}
+
+div.user.user1{
+    margin-top: 2in;
 }
 
 div.pass{
     margin-top: 0.4in;
-    margin-left: 0.8in;
+    margin-left: 0.6in;
     
 }
 
@@ -79,7 +81,7 @@ button{
     font-size: 15px;
     
     /*special effects*/
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 6px;
     width: 75px;
     height: 35px;
