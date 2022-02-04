@@ -1,0 +1,9 @@
+try{
+            Class.forName("com.mysql.cj.jdbc.Driver");
+            Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/sagar","root","root");
+            Statement stmt=con.createStatement();
+
+    }catch (Exception e)
+        {
+            out.println(e);
+        }
